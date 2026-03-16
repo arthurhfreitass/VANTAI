@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Vant.Ai - Cadastro de Vendedor</title>
+</head>
+<body>
+
+    <header>
+        <img src="imagens/logo.png" width="120">
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="login.html">Já tem conta? Faça login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <h2>Crie sua Conta na Vant.Ai</h2>
+            <p>Preencha os dados abaixo para começar a prospectar leads e gerar seus playbooks táticos.</p>
+
+            <form action="login.html" method="GET">
+                <p>
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+                </p>
+
+                <p>
+                    <label for="email">E-mail corporativo ou acadêmico:</label><br>
+                    <input type="email" id="email" name="email" required placeholder="exemplo@email.com">
+                </p>
+
+                <p>
+                    <label for="telefone">Telefone / WhatsApp:</label><br>
+                    <input type="tel" id="telefone" name="telefone" required placeholder="(81) 90000-0000">
+                </p>
+
+                <p>
+                    <label for="empresa">Sua Empresa ou Projeto (Opcional):</label><br>
+                    <input type="text" id="empresa" name="empresa" placeholder="Ex: Soluções Agrícolas">
+                </p>
+
+                <p>
+                    <label for="senha">Crie uma Senha:</label><br>
+                    <input type="password" id="senha" name="senha" required minlength="6">
+                    <br>
+                    <small>A senha deve ter pelo menos 6 caracteres.</small>
+                </p>
+
+                <p>
+                    <button type="submit">Finalizar Cadastro</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Vant.Ai - Sistema de Inteligência Comercial</p>
+    </footer>
+
+</body>
+</html>
