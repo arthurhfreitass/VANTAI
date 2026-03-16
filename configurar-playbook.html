@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Vant.Ai - Configurar Estratégia</title>
+</head>
+<body>
+
+    <header>
+        <img src="imagens/logo.png" width="120">
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="lista-leads.html">Voltar para Leads</a></li>
+                <li><a href="login.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <h2>Configurar Playbook Personalizado</h2>
+            <p>Você selecionou um lead. Agora, defina a estratégia de abordagem:</p>
+
+            <form action="resultado-final.html" method="GET">
+                <fieldset>
+                    <legend><strong>1. Qual framework de vendas utilizar?</strong></legend>
+                    <p>
+                        <input type="radio" id="bant" name="metodo" value="BANT" checked>
+                        <label for="bant"><strong>BANT</strong> (Foco em Orçamento e Autoridade)</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="spin" name="metodo" value="SPIN">
+                        <label for="spin"><strong>SPIN Selling</strong> (Foco em Investigação de Problemas)</label>
+                    </p>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend><strong>2. Qual o objetivo do contato?</strong></legend>
+                    <p>
+                        <select name="objetivo" required>
+                            <option value="">Selecione um objetivo...</option>
+                            <option value="prospeccao">Primeira abordagem (Cold Call/E-mail)</option>
+                            <option value="reuniao">Agendar reunião de demonstração</option>
+                            <option value="fechamento">Quebra de objeções e fechamento</option>
+                        </select>
+                    </p>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend><strong>3. Observações Adicionais (Opcional)</strong></legend>
+                    <p>
+                        <label>Algum detalhe específico sobre este lead?</label><br>
+                        <textarea name="obs" rows="4" cols="50" placeholder="Ex: O cliente está usando o concorrente X..."></textarea>
+                    </p>
+                </fieldset>
+
+                <br>
+
+                <button type="submit">Gerar Playbook Agora</button>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Vant.Ai - Sistema de Inteligência Comercial</p>
+    </footer>
+
+</body>
+</html>
