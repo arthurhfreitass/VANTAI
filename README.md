@@ -38,7 +38,7 @@ Conforme as normas estabelecidas:
 
 ---
 
-## 👥 Equipe (Consultores)
+## 👥 Equipe VantAi
 * **[Arthur Henrique Freitas Barlavento de Souza – 202610105]** 
 * **[Samuel Aurélio da Silva – 202610242]** 
 * **[Ridison Elias de Lima – 202610159]**
