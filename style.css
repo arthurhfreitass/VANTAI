@@ -7,6 +7,12 @@ nav{
     border-radius: 10px;
 }
 
+ table{
+     margin: 10px;
+         text-align: center;
+     margin-left: auto;
+     mergin-right: auto;
+ }
 main{
     text-align: center;
 }
