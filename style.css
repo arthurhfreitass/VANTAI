@@ -6,3 +6,11 @@ nav{
     color: white;
     border-radius: 10px;
 }
+
+main{
+    text-align: center;
+}
+
+img {
+    padding: 10px;
+}
