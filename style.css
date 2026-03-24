@@ -7,6 +7,15 @@ nav{
     border-radius: 10px;
 }
 
+
+
+button{
+    font-family: 'Poppins';
+    color: #0044ff;
+    background-color: rgb(255,255,255);
+    border-radios: 8px;
+}
+
  table{
      margin: 10px;
          text-align: center;
