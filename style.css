@@ -6,7 +6,17 @@ nav{
     color: white;
     border-radius: 10px;
 }
-
+body{
+    background-image: linear-gradient(to left, #020561,#000000);
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Poppins';
+    text-align: center;
+}
+ul{
+    color: white;
+    text
+}
 
 
 button{
